@@ -1,10 +1,3 @@
-!pip install streamlit
-!pip install pandas 
-!pip install np
-!pip install bs4
-!pip install os
-!pip install glob
-
 import streamlit as st
 import pandas as pd
 import numpy as np
