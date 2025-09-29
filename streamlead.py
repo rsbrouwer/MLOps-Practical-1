@@ -25,7 +25,7 @@ for filepath in glob.glob("reports/Week_5/data/raw/*.html"):
 # save processed dataset
 os.makedirs("reports/Week_5/data/processed", exist_ok=True)
 df = pd.DataFrame(all_books)
-st.table(df)
+st.table(all_books)
 df.to_csv("reports/Week_5/data/processed/books.csv", index=False)
 
 print(f"Saved {len(df)} books into reports/Week_5/ data/processed/books.csv")
