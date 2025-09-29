@@ -1,3 +1,8 @@
+pip install sklearn
+pip install pandas as pd
+pip install os
+pip install sqlite3
+
 import pandas as pd, os, sqlite3
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
