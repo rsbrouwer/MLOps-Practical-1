@@ -25,7 +25,7 @@ for filepath in glob.glob("reports/Week_5/data/raw/*.html"):
 # save processed dataset
 os.makedirs("reports/Week_5/data/processed", exist_ok=True)
 df = pd.DataFrame(all_books)
-st.table(df)
+st.st.dataframe(df)
 
 
 
