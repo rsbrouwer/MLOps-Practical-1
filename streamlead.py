@@ -47,7 +47,7 @@ for filepath in glob.glob("data_test/*.html"):
 # save processed dataset
 os.makedirs("data_test/processed", exist_ok=True)
 df = pd.DataFrame(all_books)
-st.st.dataframe(df)
+st.dataframe(df)
 
 
 
