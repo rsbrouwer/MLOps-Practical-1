@@ -28,3 +28,5 @@ df = pd.DataFrame(all_books)
 df.to_csv("reports/Week_5/data/processed/books.csv", index=False)
 
 print(f"Saved {len(df)} books into reports/Week_5/ data/processed/books.csv")
+
+st.dataframe(df.style.highlight_max(axis=0))
